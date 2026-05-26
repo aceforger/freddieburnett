@@ -110,12 +110,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Bottom scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-4">
-        <span className="text-[8px] text-[#D9D9D9]/20 tracking-[0.4em] uppercase font-montserrat">Scroll</span>
-        <div className="w-[1px] h-8 bg-gradient-to-b from-[#D9D9D9]/20 to-transparent"></div>
-      </div>
     </section>
   )
 }
